@@ -1,0 +1,55 @@
+@charset "UTF-8";
+
+@font-face {
+    font-family: 'Passion-One';
+    src: url('../fontes/PassionOne.ttf') format('truetype');
+    font-weight: normal;
+}
+
+@font-face {
+    font-family: 'Sriracha';
+    src: url('../fontes/Sriracha.ttf') format('truetype');
+    font-weight: normal;
+}
+
+:root {
+    --fonte-padrão: Verdana, Arial, Helvetica, Sans-serif;
+    --fonte01: 'Passion-One', cursive;
+    --fonte02: 'Sriracha', cursive;
+}
+
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+header {
+    background-color: black;
+    color: white;
+    text-align: center;
+}
+
+header > h1 {
+    margin: 0px;
+    padding-top: 60px;
+    font-family: var(--fonte01);
+    font-size: 10vw;
+    font-weight: bolder;
+}
+
+header > p {
+    margin: 0px;
+    padding-bottom: 40px;
+    font-family: var(--fonte-padrão);
+}
+
+header a {
+    font-weight: bold;
+    text-decoration: none;
+    color: white;
+}
+
+header a:hover {
+    text-decoration: underline;
+}
+
