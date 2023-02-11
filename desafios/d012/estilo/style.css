@@ -53,3 +53,21 @@ header a:hover {
     text-decoration: underline;
 }
 
+section.texto {
+    margin: 0px;
+    padding: 74px 30px;
+    font-family: var(--fonte02);
+    font-size: 29px;
+}
+
+section#img01 {
+    background: black url('../imagens/background001.jpg') right center no-repeat fixed;
+    background-size: cover;
+}
+
+p.texto-branco {
+    width: 341px;
+    color: white;
+    background-color: rgba(0, 0, 0, 0.450);
+}
+
