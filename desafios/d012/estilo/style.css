@@ -64,6 +64,7 @@ section.texto {
 section#img01 {
     background: black url('../imagens/background001.jpg') right center no-repeat fixed;
     background-size: cover;
+    box-shadow: inset 2px 3px 20px 5px rgba(0, 0, 0, 0.47);
 }
 
 p.texto-branco {
@@ -79,6 +80,7 @@ p.paragrafo {
 section#img02 {
     background: black url('../imagens/background002.jpg') right center no-repeat fixed;
     background-size: cover;
+    box-shadow: inset 2px 3px 20px 5px rgba(0, 0, 0, 0.47);
 }
 
 footer {
