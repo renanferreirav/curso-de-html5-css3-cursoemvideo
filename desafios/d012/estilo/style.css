@@ -24,6 +24,7 @@
 }
 
 html, body {
+    font-family: var(--fonte-padrão);
     min-height: 100vh;
 }
 
@@ -45,7 +46,6 @@ header > h1 {
 header > p {
     margin: 0px;
     padding-bottom: 50px;
-    font-family: var(--fonte-padrão);
 }
 
 header a {
@@ -58,42 +58,43 @@ header a:hover {
     text-decoration: underline;
 }
 
-section.texto {
+section {
     margin: 0px;
     padding-top: 10vh;
     padding-bottom: 10vh;
     padding-left: 30px;
     font-family: var(--fonte02);
-    font-size: 30px;
+    font-size: 3.5vw;
     line-height: 2em;
+}
+
+section p {
+    padding-bottom: 2em;
+}
+
+section.img {
+    color: white;
+    background-size: cover;
+    box-shadow: inset 2px 3px 20px 5px rgba(0, 0, 0, 0.47);
+}
+
+section.img > p {
+    padding: 10px;
+    display: inline-block;
+    background-color: rgba(0, 0, 0, 0.450);
 }
 
 section#img01 {
     background: black url('../imagens/background001.jpg') right center no-repeat fixed;
-    background-size: cover;
-    box-shadow: inset 2px 3px 20px 5px rgba(0, 0, 0, 0.47);
-}
-
-p.texto-branco {
-    width: 363px;
-    color: white;
-    background-color: rgba(0, 0, 0, 0.450);
-}
-
-p.paragrafo {
-    padding-bottom: 74px;
 }
 
 section#img02 {
     background: black url('../imagens/background002.jpg') right center no-repeat fixed;
-    background-size: cover;
-    box-shadow: inset 2px 3px 20px 5px rgba(0, 0, 0, 0.47);
 }
 
 footer {
     padding: 5px;
     background-color: black;
-    font-family: var(--fonte-padrão);
     color: white;
     text-align: center;
 }
